@@ -1,4 +1,4 @@
-## react-native-root-toast [![npm version](https://badge.fury.io/js/react-native-root-toast.svg)](http://badge.fury.io/js/react-native-root-toast)
+## @gwroger/react-native-root-toast [![npm version](https://badge.fury.io/js/react-native-root-toast.svg)](http://badge.fury.io/js/react-native-root-toast)
 
 -----------------------
 
@@ -12,7 +12,7 @@
 
 ### Install
 
-`npm install react-native-root-toast`
+`npm install @gwroger/react-native-root-toast`
 
 > react-native-root-toast >= 2.1.0 only supports react-native >= 0.47.0 , for lower version choose 2.0.0 or below.
 
@@ -25,18 +25,18 @@ In react native >= 0.62, the new LogBox component would impact this component's 
 // But you can install it explicitly if your editor complains about it.
 import { RootSiblingParent } from 'react-native-root-siblings';
 
-// in your render function 
+// in your render function
 return (
   <RootSiblingParent>  // <- use RootSiblingParent to wrap your root component
     <App />
   </RootSiblingParent>
 );
-            
+
 ```
 
 You can skip this step if your react-native is lower than 0.62. And actually you can inject RootSiblingParent into anywhere like a react portal, for example if you have multiple rootviews you can choose where to display the root toast.
 
-Read more about [`react-native-root-siblings`](https://github.com/magicismight/react-native-root-siblings) which powers `react-native-root-toast`. 
+Read more about [`react-native-root-siblings`](https://github.com/magicismight/react-native-root-siblings) which powers `react-native-root-toast`.
 
 
 ### Usage
@@ -81,7 +81,7 @@ setTimeout(function () {
 ##### **Using a Component**
 
 **NOTE:**
-Showing a toast by using a Component inside render, The toast will be automatically disappeared when the `<Toast />` is unmounted.
+Showing a toast by using a Component inside render, The toast will be automatically disappeared when the `<Toast />` is unmounted. toast can be a string or any children type.
 
 ```js
 import React, {Component} from 'react-native';
@@ -161,4 +161,3 @@ presets of position of toast.
 2. Toast.positions.BOTTOM (equals to *-20*)
 
 3. Toast.positions.CENTER (equals to *0*)
-
