@@ -16,7 +16,7 @@ import React, {
     ScrollView,
     Switch
 } from 'react-native';
-import Toast from 'react-native-root-toast';
+import Toast from '@gwroger/react-native-root-toast';
 import Field from './Field';
 
 let {

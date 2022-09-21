@@ -7,7 +7,7 @@
     },
     "dependencies": {
         "react-native": "^0.20.0",
-        "react-native-root-toast": "../",
+        "@gwroger/react-native-root-toast": "../",
         "react-native-root-modal": "1.0.3"
     }
 }
