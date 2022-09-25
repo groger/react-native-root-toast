@@ -1,6 +1,8 @@
 ## @gwroger/react-native-root-toast [![npm version](https://badge.fury.io/js/react-native-root-toast.svg)](http://badge.fury.io/js/react-native-root-toast)
 
 -----------------------
+IN PROGRESS!!!!!!!!!!!!!
+
 
 #### Features
 1. Pure javascript solution.
